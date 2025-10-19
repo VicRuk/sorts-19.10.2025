@@ -20,9 +20,9 @@ Dessa forma, o sistema irá mostrar qual foi melhor em cada categoria:
 | **Bucket Sort** | 20 | 18 | 20 | 0,1708ms |
 
 Melhor em cada categoria:
-Menos Trocas: Selection Sort
-Menos Iterações: Cocktail Sort
-Mais Rápido: Gnome Sort
+- Menos Trocas: Selection Sort
+- Menos Iterações: Cocktail Sort
+- Mais Rápido: Gnome Sort
 
 ## 2. Vetor Ordenado:
 [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32]
@@ -37,9 +37,9 @@ Mais Rápido: Gnome Sort
 | **Bucket Sort** | 20 | 18 | 20 | 0,0435ms |
 
 Melhor em cada categoria:
-Menos Trocas: Bubble Sort
-Menos Iterações: Cocktail Sort
-Mais Rápido: Cocktail Sort
+- Menos Trocas: Bubble Sort
+- Menos Iterações: Cocktail Sort
+- Mais Rápido: Cocktail Sort
 
 ## 3. Vetor Decrescente:
 [99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
@@ -54,6 +54,6 @@ Mais Rápido: Cocktail Sort
 | **Bucket Sort** | 20 | 34 | 20 | 0,0399ms |
 
 Melhor em cada categoria:
-Menos Trocas: Selection Sort
-Menos Iterações: Comb Sort
-Mais Rápido: Selection Sort
+- Menos Trocas: Selection Sort
+- Menos Iterações: Comb Sort
+- Mais Rápido: Selection Sort
