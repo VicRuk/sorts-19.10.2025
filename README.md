@@ -57,3 +57,13 @@ Melhor em cada categoria:
 - Menos Trocas: Selection Sort
 - Menos Iterações: Comb Sort
 - Mais Rápido: Selection Sort
+
+
+## Conclusão:
+Ao realizar as diferentes formas de ordenação e seu desempenho, podemos concluir:
+- Quando a lista já está quase em ordem ou ordenada, **Cocktail Sort** é a melhor opção, pois percebe rápido que está tudo certo e termina logo.
+- Para fazer o mínimo de trocas possível, **Selection Sort** procura o menor e troca só quando precisa, ótimo para evitar muitas escritas.
+- Quando a lista está bem bagunçada ou decrescente, **Comb Sort** costuma dar menos voltas (menos laços) e o **Selection** continua sendo bom para poucas trocas.
+- Para listas pequenas e variadas, o **Gnome Sort** pode ser o mais rápido, simples e direto.
+- **Bubble Sort** vale a pena se você sabe que os dados já estão quase ordenados.
+- **Bucket Sort** compensa quando os números têm uma distribuição variada e em trabalho de tamanho grande.
