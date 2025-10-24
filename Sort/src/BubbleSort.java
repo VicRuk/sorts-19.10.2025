@@ -7,15 +7,21 @@ public class BubbleSort {
 
         long inicio = System.nanoTime();
 
-        for (int i = 0; i < array.length - 1; i++) {
+        boolean trocou = true;
+
+        for (int i = 0; i < array.length - 1 && trocou; i++) {
             iteracoes++;
+            trocou = false;
+
             for (int j = 0; j < array.length - i - 1; j++) {
                 comparacoes++;
                 if (array[j] > array[j + 1]) {
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
+
                     trocas++;
+                    trocou = true;
                 }
             }
         }
